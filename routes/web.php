@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RecettesController;
+use Illuminate\Support\Facades\Http;
 
 /*
 |--------------------------------------------------------------------------

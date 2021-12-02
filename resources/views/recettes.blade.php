@@ -1,6 +1,6 @@
-@include('header')
+@extends('templates.default')
 
-<div class="container">
+@section('content')
     <div class="row">
         @foreach ($recettes as $recette)
             <div class="col-3" style="margin-top: 15px">
@@ -11,4 +11,4 @@
             </div>
         @endforeach
     </div>
-</div>
+@endsection
